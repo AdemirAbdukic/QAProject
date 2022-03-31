@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('test', async ({ page }) => {
+test('Form Authentication', async ({ page }) => {
     
   await page.goto('');
   await page.pause();
