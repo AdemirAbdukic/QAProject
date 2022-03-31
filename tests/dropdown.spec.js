@@ -8,5 +8,4 @@ test('dropdown', async ({ page }) => {
   await expect(page).toHaveURL('https://the-internet.herokuapp.com/dropdown');
   await page.locator('select').selectOption('1');
   await expect(page.locator('#dropdown')).toHaveValue('1');
-
   });
