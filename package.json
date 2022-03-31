@@ -1,0 +1,19 @@
+{
+  "name": "qaproject",
+  "version": "1.0.0",
+  "description": "This is my QA project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdemirAbdukic/QAProject.git"
+  },
+  "author": "Ademir Abdukic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdemirAbdukic/QAProject/issues"
+  },
+  "homepage": "https://github.com/AdemirAbdukic/QAProject#readme"
+}
