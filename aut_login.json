@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "sameSite": "Lax",
+      "name": "optimizelySegments",
+      "value": "%7B%7D",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1964178017,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "optimizelyEndUserId",
+      "value": "oeu1648818017384r0.9125993033594866",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1964178017,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "optimizelyBuckets",
+      "value": "%7B%7D",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1964178017,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "rack.session",
+      "value": "BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiRWMyMWNjYzgyZTcwNGE5ZmNmZTNm%0AMjVjNjhhYTUzZmQ2NmEyZmE2ZmRjZjQwOTViNGMwNjczZjRkOWRiZDI0ZjkG%0AOwBGSSIJY3NyZgY7AEZJIiUyOTQ5YzA2OGFhZmNiM2MyOWY3MTdlOGJjZWQx%0AZmQzNwY7AEZJIg10cmFja2luZwY7AEZ7B0kiFEhUVFBfVVNFUl9BR0VOVAY7%0AAFRJIi0wZjQzYmJhZjgyZmQ2ZmY3OGMzOTk4YzE0MWIwOThjMDhiYjFiNTc1%0ABjsARkkiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsAVEkiLWQ0ZTdkMzNmNGVi%0ANzNiY2U4ZmY3MDdjODBiNjlhYzU3ZWU1YzlmYmMGOwBGSSIKZmxhc2gGOwBG%0AewBJIg11c2VybmFtZQY7AEZJIg10b21zbWl0aAY7AFQ%3D%0A--cefae8b63fc9dc0131bc97cd79fafb98e8a88205",
+      "domain": "the-internet.herokuapp.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "optimizelyPendingLogEvents",
+      "value": "%5B%22n%3Dhttps%253A%252F%252Fthe-internet.herokuapp.com%252Fsecure%26u%3Doeu1648818017384r0.9125993033594866%26wxhr%3Dtrue%26t%3D1648818043027%26f%3D298349752%2C318188263%22%5D",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1648818058,
+      "httpOnly": false,
+      "secure": false
+    }
+  ],
+  "origins": []
+}
