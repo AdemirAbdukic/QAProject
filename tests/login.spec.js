@@ -13,4 +13,5 @@ test('Form Authentication', async ({ page }) => {
   await page.locator('#password').fill('SuperSecretPassword!');
   await page.locator('button:has-text("Login")').click();
   await expect(page).toHaveURL('https://the-internet.herokuapp.com/secure');
+  await page.context().storageState({path: 'aut_login.json'});
 });
