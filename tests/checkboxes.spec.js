@@ -9,7 +9,7 @@ test('Checkboxes', async ({ page }) => {
   await page.locator('input[type="checkbox"]').first().check();
   await expect(page.locator('input[type="checkbox"]').first()).toBeChecked;
   await page.locator('input[type="checkbox"]').nth(1).uncheck();
-  await expect(page.locator('input[type="checkbox"]').nth(1)).not.toBeChecked;
+  await expect(page.locator('input[type="checkbox"]').nth(1)).toBeChecked({checked: false});
   await page.locator('input[type="checkbox"]').nth(1).check();
   await expect(page.locator('input[type="checkbox"]').nth(1)).toBeChecked;
 });
