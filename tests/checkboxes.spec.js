@@ -7,8 +7,9 @@ test('Checkboxes', async ({ page }) => {
   await page.locator('text=Checkboxes').click();
   await expect(page).toHaveURL('https://the-internet.herokuapp.com/checkboxes');
   await page.locator('input[type="checkbox"]').first().check();
-  await expect(page.locator('input[type="checkbox"]').first()).toHaveAttribute('checked','');
+  await expect(page.locator('input[type="checkbox"]').first()).toBeChecked;
   await page.locator('input[type="checkbox"]').nth(1).uncheck();
+  await expect(page.locator('input[type="checkbox"]').nth(1)).toBeChecked({checked: false});
   await page.locator('input[type="checkbox"]').nth(1).check();
   await expect(page.locator('input[type="checkbox"]').nth(1)).toBeChecked;
 });
