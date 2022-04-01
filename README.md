@@ -4,7 +4,7 @@ This is a project with basic UI automation tests written in JavaScript using Nod
 
 ## Tests
 
-- Sample tests using demo website https://the-internet.herokuapp.com/.
-- Global configuration can be found in playwright.config.js.
-- Project data can be found in package.json.
-- Login cookies are stored in aut_login.json.
+- Sample tests using demo website https://the-internet.herokuapp.com/
+- Global configuration can be found in playwright.config.js
+- Project data can be found in package.json
+- Login cookies are stored in aut_login.json
