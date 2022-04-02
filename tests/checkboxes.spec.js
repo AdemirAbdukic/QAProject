@@ -1,6 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('Checkboxes', async ({ page }) => {
+
   await page.goto('');
   await expect(page).toHaveURL('https://the-internet.herokuapp.com');
   await page.locator('text=Checkboxes').click();
@@ -11,4 +12,5 @@ test('Checkboxes', async ({ page }) => {
   await expect(page.locator('input[type="checkbox"]').nth(1)).toBeChecked({checked: false});
   await page.locator('input[type="checkbox"]').nth(1).check();
   await expect(page.locator('input[type="checkbox"]').nth(1)).toBeChecked;
+  
 });

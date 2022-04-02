@@ -1,6 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('Form Authentication', async ({ page }) => { 
+
   await page.goto('');
   await expect(page).toHaveURL('https://the-internet.herokuapp.com');
   await page.locator('text=Form Authentication').click();
@@ -12,4 +13,5 @@ test('Form Authentication', async ({ page }) => {
   await page.locator('button:has-text("Login")').click();
   await expect(page).toHaveURL('https://the-internet.herokuapp.com/secure');
   await page.context().storageState({path: 'aut_login.json'});
+  
 });
