@@ -2,7 +2,6 @@ const { test, expect } = require('@playwright/test');
 
 test('Hovers', async ({ page }) => {
 
-  await page.pause()
   await page.goto('');
   await expect(page).toHaveURL('https://the-internet.herokuapp.com/');
   await page.locator('text=Hovers').click();
